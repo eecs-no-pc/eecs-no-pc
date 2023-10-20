@@ -44,7 +44,7 @@
   </tr>
   <tr>
     <td>EECS 183</td>
-    <td>✅</td>
+    <td>🔶</td>
     <td>❌</td>
     <td>✅</td>
     <td>✅</td>
@@ -52,7 +52,7 @@
   </tr>
   <tr>
     <td>EECS 280</td>
-    <td>✅</td>
+    <td>🔶</td>
     <td>❌</td>
     <td>✅</td>
     <td>✅</td>
@@ -60,7 +60,7 @@
   </tr>
   <tr>
     <td>EECS 281</td>
-    <td>✅</td>
+    <td>🔶</td>
     <td>❌</td>
     <td>✅</td>
     <td>✅</td>
@@ -122,13 +122,84 @@
 <subsection>Class Notes</subsection>
 
 <courseheader id="183">EECS 183: Elementary Programming Concepts</courseheader>
-  See the <a href="#cpp">C/C++ Guide</a>
+  See the <a href="#cpp">C/C++ Guide</a>. 
 <courseheader id="280">EECS 280: Data Structures and Algorithms 1</courseheader>
-   See the <a href="#cpp">C/C++ Guide</a>
+   See the <a href="#cpp">C/C++ Guide</a>. Note that this class asks you to run git as part of assignments, so avoid Sites PCs, since they do not have git installed. 
 <courseheader id="281">EECS 281: Data Structures and Algorithms 2</courseheader>
-   See the <a href="#cpp">C/C++ Guide</a>
+   See the <a href="#cpp">C/C++ Guide</a>. Note that this class asks you to run git as part of assignments, so avoid Sites PCs, since they do not have git installed.
 
+<courseheader id="376">EECS 376: Foundations of Computer Science</courseheader>
+  There is no programming in this class. 
+  
 <subsection id="cpp">C/C++ Guide</subsection>
+Coursework in these classes is easily doable on Sites Macs, Sites Windows, Art Macs, CAEN Windows, and CAEN Linux. 
+You get the following software relevant to the class, preconfigured for you to use, and can follow class setup tutorials 1:1:
 
+  Groundworks Macs:
+  <ul>
+    <li>
+      Xcode, Instruments Profiler & related tools
+    </li>
+    <li>
+      git
+    </li>
+    <li>
+      lldb
+    </li>
+     <li>
+      Apple Clang
+    </li>
+     <li>
+      "gcc" (notes about this later)
+    </li>
+  </ul>
+  Note about gcc on mac. Xcode also installs a symlink so that you can run the g++ command on Mac. However, this is <em>not</em> g++! 
+  This invokes Apple Clang with a default set of arguments to emulate the real g++. The behavior of clang and gcc is different, so
+  if a course asks you to use the gcc or g++ commands, do not run them on university-owned macs!
 
+  Sites PCs:
+  <ul>
+    <li>
+      Visual Studio Enterprise (includes CMake)
+    </li>
+  </ul>
+
+  CAEN Windows:
+  <ul>
+    <li>
+      Visual Studio Enterprise (includes: CMake)
+    </li>
+    <li>
+      git
+    </li>
+    <li>
+      Visual Studio Code & Windows Subsystem for Linux (more on this later)
+    </li>
+  </ul>
+
+  CAEN Linux:
+  <ul>
+    <li>
+      gcc, g++
+    </li>
+    <li>
+      clang, clang++
+    </li>
+    <li>
+      perf  (required for 281)
+    </li>
+    <li>
+      nano, vim, emacs
+    </li>
+    <li>
+      cmake
+    </li>
+    <li>
+      git
+    </li>
+    <li>
+      Visual Studio Code
+    </li>
+  </ul>
+  
 </body>
