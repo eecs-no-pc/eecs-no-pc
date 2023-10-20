@@ -17,6 +17,7 @@
     margin-top: 30px;
   }
   subsection{
+    font-weight: bold;
     font-size: 16px;
     display: block;
     margin-top: 30px;
@@ -125,6 +126,7 @@
 
 <subsection>Campus Computing Resources</subsection>
 
+  <hr>
 <subsection>Class Notes</subsection>
 
 <courseheader id="183">EECS 183: Elementary Programming Concepts</courseheader>
@@ -133,12 +135,20 @@
    All programming in this class is in C++. <a href="#cpp">C/C++ Guide</a>. Note that this class asks you to run git as part of assignments, so avoid Sites PCs, since they do not have git installed. 
 <courseheader id="281">EECS 281: Data Structures and Algorithms 2</courseheader>
    All programming in this class is in C++. <a href="#cpp">C/C++ Guide</a>. Note that this class asks you to run git as part of assignments, so avoid Sites PCs, since they do not have git installed.
-<courseheader id="370">EECS 281: Data Structures and Algorithms 2</courseheader>
+<courseheader id="370">EECS 370: Intro to Computer Organization</courseheader>
   All programming in this class is in C. <a href="#cpp">C/C++ Guide</a>.
 <courseheader id="376">EECS 376: Foundations of Computer Science</courseheader>
  There is little-to-no programming in this class. Any required coding is extremely basic and can be completed on any of the public computers except Sites PCs, unless you use the <a href="#windows-store">Windows Store exploit</a> to install python. 
 
  You will want a LaTEX editor, and there are some options preinstalled or available as browser apps. <a href="https://www.overleaf.com/">Overleaf</a> is a popular free web-based option.
+
+<courseheader id="485">EECS 485: Web Systems</courseheader>
+This one’s trickier. Most of the tools you need are not preinstalled on any university-owned device, and there are many gotchas. 
+  All programming in this class is in Python, see the <a href="#python">Python Guide</a>.   
+  Projects 1, 2, 4, and 5 are nonetheless easy to complete with the proper setup as mentioned in the guide. Project 3 (React) is more difficult, because
+  the unit tests require Java to run. It is possible to get Java without administrator, but it's annoying to set up. See the <a href="#java">Java Guide</a>.
+
+<hr>
   
 <subsection id="cpp">C/C++ Guide</subsection>
 Coursework in these classes is easily doable on Sites Macs, Sites Windows, Art Macs, CAEN Windows, and CAEN Linux. 
@@ -211,6 +221,37 @@ You get the following software relevant to the class, preconfigured for you to u
     </li>
   </ul>
 
+  <subsection id="python">Python Guide</subsection>
+  Python is preinstalled on macOS. However, you'll likely want an IDE or other editor to help you, especially with regard to pip libraries. 
+  <a href="https://www.jetbrains.com/pycharm/">PyCharm Community Edition</a> is an excellent free python IDE which also manages python virtual
+  environments and pip libraries for you. Below are the steps to run it without administrator priviledges:
+
+  <ol>
+    Any Mac
+    <li>
+      Download the .dmg and open it
+    </li>
+    <li>
+      Don't drag it to the Applications folder. Instead, just double-click it from the DMG window to open it. 
+    </li>
+  </ol>
+
+  <ol>
+    Any Windows device
+    <li>
+      Download the .exe installer
+    </li>
+    <li>
+      Use 7zip to unzip the installer .exe
+    </li>
+    <li>
+      In the folder, navigate to bin/ and run pycharm64.exe.  
+    </li>
+  </ol>
+  
+  <subsection id="java">Java Guide</subsection>
+  TODO
+  
   <subsection id="windows-store">Windows Store Exploit</subsection>
   <p>
     <p class="warning">
